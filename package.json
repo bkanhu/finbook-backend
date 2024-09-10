@@ -1,0 +1,35 @@
+{
+  "name": "finbook-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"src/**/*.{js,jsx,json,ts,tsx}\""
+  },
+  "keywords": [],
+  "author": "bkanhu",
+  "license": "MIT",
+  "description": "FinBook - Manage Finance",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "eslint": "^9.8.0",
+    "express": "^4.19.2",
+    "express-status-monitor": "^1.2.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.2",
+    "papertrail": "^1.0.2",
+    "prettier": "^3.3.3",
+    "winston": "^3.13.1",
+    "winston-papertrail": "^1.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
