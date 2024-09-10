@@ -19,7 +19,7 @@ Most endpoints require authentication using a JWT token. The token should be inc
   {
   "name":"B Kanhu",
   "email":"iamkanhuc@gmail.com",
-  "phone":"8093358472",
+  "phone":"2145154125",
   "password":"123456"
   }
   ```
